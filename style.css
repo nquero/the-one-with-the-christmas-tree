@@ -36,11 +36,10 @@ html, body {
 }
 
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   body {
 
     background: greenyellow;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,6 +47,4 @@ html, body {
 
   }
 
-  
-
-}
+} */
