@@ -81,7 +81,7 @@ function drawLines(){
     }
 }
 
-function mousePressed() {
+function touchStarted() {
    img.rect(-10, -10, 800, 800);
     noStroke();
     rect(120, 120, 550, 550);
