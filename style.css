@@ -5,14 +5,14 @@ html, body {
   }
   
   body {
+
     background: black;
     margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-right: 45px;
-
+    /* margin-right: 45px; */
 
   }
 
@@ -23,20 +23,20 @@ html, body {
   }
 
   h1{
-
+    font-size: 28px;
        color: white;
-       font-size: 100%;
        align-self: flex-start;
   }
 
   h2{
-    font-size: 1em;
+
+    font-size: 18px;
      color: white;
     
 }
 
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   body {
 
     background: greenyellow;
@@ -47,4 +47,24 @@ html, body {
 
   }
 
-} */
+
+  .intructions{
+    padding: 50px;
+    /* margin: auto; */
+  }
+
+  h1{
+    font-size: 18px;
+       color: white;
+       align-self: flex-start;
+  }
+
+  h2{
+
+    font-size: 8px;
+     color: white;
+    
+}
+
+
+}
