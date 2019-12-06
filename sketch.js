@@ -71,8 +71,9 @@ function drawLines(){
 
         let s = random(800);
         let f = random(-200, 200);
-       img.strokeWeight(lineWidth);
-         img.line(0, s, 800,  s+f);  // img.line(0, s, 800,  s*f);
+        img.strokeWeight(lineWidth);
+        img.stroke(0,random(10,50),random(0,20), random(200,255));
+        img.line(0, s, 800,  s+f);  // img.line(0, s, 800,  s*f);
         img.smooth();
 
         if (numOfLines <= 10) {
@@ -82,7 +83,8 @@ function drawLines(){
 }
 
 function touchStarted() {
-   img.rect(-10, -10, 800, 800);
+
+    img.rect(-10, -10, 800, 800);
     noStroke();
     rect(120, 120, 550, 550);
     drawLines();
