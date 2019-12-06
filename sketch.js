@@ -8,7 +8,7 @@ let linelineWidth;
 
 function setup() {
 
-    canvas = createCanvas(windowWidth/2, windowWidth/2);
+    canvas = createCanvas(800, 800);
     background(255); //fill(246,234,219);
     img = createGraphics(800, 800);
 
