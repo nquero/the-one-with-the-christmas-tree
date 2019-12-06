@@ -6,9 +6,14 @@ let mask;
 let numOfLinesOfLines;
 let linelineWidth;
 
+var x = (windowWidth - width) / 2;
+var y = (windowHeight - height) / 2;
+
+
 function setup() {
 
     canvas = createCanvas(800, 800);
+    canvas.position(x, y);
     background(255); //fill(246,234,219);
     img = createGraphics(800, 800);
 

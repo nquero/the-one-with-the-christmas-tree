@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300&display=swap');
+
 html, body {
     height: 100%;
-
-    font-family: Helvetica;
+    font-family: 'Nunito', sans-serif;
   }
   
   body {
@@ -17,21 +18,20 @@ html, body {
   }
 
 
-  .intructions{
-    padding: 100px;
-    margin: auto;
-  }
-
   h1{
-    font-size: 28px;
-       color: white;
-       align-self: flex-start;
+    font-size: 18px;
+    color: white;
+    align-self: flex-start;
+    position: fixed;
+    top: 5px;
   }
 
   h2{
 
     font-size: 18px;
      color: white;
+     position: fixed;
+    bottom: 5px;
     
 }
 
