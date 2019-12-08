@@ -88,12 +88,37 @@ function drawLines(){
     }
 }
 
+function drawLines(){
+    fill(255);
+    //img.noStroke();
+    //img.noFill();
+  
+    let numOfLines = random(2, 30);
+    let lineWidth = random(2, 50);
+
+    for (let i = 0; i < numOfLines; i++) {
+
+        let s = random(800);
+        let f = random(-200, 200);
+        img.strokeWeight(lineWidth);
+        img.stroke(0,random(10,50),random(0,20), random(200,255));
+        img.line(0, s, 800,  s+f);  // img.line(0, s, 800,  s*f);
+        img.smooth();
+
+        if (numOfLines <= 10) {
+            lineWidth = 50;
+        }
+    }
+}
+
+
 function touchStarted() {
 
     img.rect(-10, -10, 800, 800);
     noStroke();
     rect(120, 120, 550, 550);
-    drawLines();
+    
+   drawLines();
    
 }
 
@@ -103,4 +128,6 @@ function keyPressed() {
     if (keyCode === ENTER) {
         saveCanvas(canvas, 'myCanvas', 'jpg');
     }
+
+
 }
