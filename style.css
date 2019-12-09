@@ -1,61 +1,85 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito:300&display=swap');
+@font-face {
+  font-family: DINBold;
+  src: url('D-DIN-Bold.otf');
+}
+
+
 
 html, body {
     height: 100%;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif, sans-serif;
   }
   
   body {
 
     background: black;
-    margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-right: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+
 
   }
 
 
+  nav {
+
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 10; /* Position the navbar at the top of the page */
+    left: 10;
+    width: 100%; /*Full width*/
+
+
+  }
+
+  a{
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+  }
+  
+.content{
+  /* margin: 100px; */
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 0px;
+
+}
+
   h1{
+    font-size: 80px;
+    color: white;
+    /* position: fixed; */
+    top: 5px;
+    font-weight: 500;
+    /* padding-bottom: 20px; */
+  }
+
+  p{
+
     font-size: 20px;
     color: white;
-    align-self: flex-start;
-    position: fixed;
-    top: 5px;
-  }
-
-  h2{
-
-    font-size: 16px;
-     color: white;
-     position: fixed;
-    bottom: 5px;
+    font-weight: 300;
     
+
+}
+
+.bottom{
+  font-size: 15px;
+  padding-top: 400px;
+  align-self: flex-end;
+  margin-right: 10px;
+
 }
 
 
-
-/* @media screen and (max-width: 600px) {
-
-  h1{
-    font-size: 40px;
-    color: white;
-    align-self: flex-start;
-    position: fixed;
-    top: 5px;
-  }
-
-  h2{
-
-    font-size: 36px;
-     color: white;
-     position: fixed;
-    bottom: 5px;
-    
-}
-
-
-
-} */
