@@ -73,10 +73,10 @@ function drawLines(){
     for (let i = 0; i < numOfLines; i++) {
 
         let s = random(800);
-        let f = random(-200, 200);
+        let f = random(-2, 2);
         img.strokeWeight(lineWidth);
         img.stroke(0,random(10,50),random(0,20), random(200,255));
-        img.line(0, s, 800,  s+f);  // img.line(0, s, 800,  s*f);
+        img.line(0, s, 800,  s*f);  // img.line(0, s, 800,  s*f);
         img.smooth();
 
         if (numOfLines <= 10) {
