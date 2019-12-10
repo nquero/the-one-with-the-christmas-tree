@@ -101,7 +101,7 @@ html, body {
 
   .mobileCover{
     visibility: visible;
-    position: fixed;
+    position: absolute;
     width: 1000px;
     height: 1000px;
     background: black;
