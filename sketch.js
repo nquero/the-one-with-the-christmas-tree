@@ -101,6 +101,7 @@ function touchStarted() {
 function keyPressed() {
 
     if (keyCode === ENTER) {
-        saveCanvas(canvas, 'myCanvas', 'jpg');
+        saveCanvas(canvas, 'saveMyTree', 'jpg');
+
     }
 }
