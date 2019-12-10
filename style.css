@@ -51,7 +51,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  padding: 0px;
+  /* padding: 0px; */
 
 }
 
@@ -70,7 +70,6 @@ html, body {
     color: white;
     font-weight: 300;
     
-
 }
 
 .bottom{
@@ -95,8 +94,14 @@ html, body {
     font-size: 24px;
   }
 
-  p{
-    font-size: 18px;
+  .mobileMessage{
+    font-size: 24px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 50; /* Position the navbar at the top of the page */
+    left: 50;
+    width: 50%; /*Full width*/
+
+
   }
 
   .mobileCover{
@@ -105,6 +110,12 @@ html, body {
     width: 1000px;
     height: 1000px;
     background: black;
+   
+
+    /* overflow: hidden; */
+    /* background-color: black; */
+    flex-wrap: wrap;
+
   }
   
 
