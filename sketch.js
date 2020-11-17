@@ -28,10 +28,10 @@ function setup() {
     text('HAPPY', 20, -70);
     text('HOLIDAYS', -10, -50);
 
-    translate(100, 100);
-    rotate(radians(180));
-    text('HAPPY', 712, -570);
-    text('HOLIDAYS', 685, -550);
+   //  translate(100, 100);
+    // rotate(radians(180));
+    // text('HAPPY', 712, -570);
+    // text('HOLIDAYS', 685, -550);
 
     //INITIAL LINES
     let numOfLines = random(2, 30);
