@@ -12,9 +12,9 @@ let linelineWidth;
 
 function setup() {
 
-    canvas = createCanvas(800, 800);
+    canvas = createCanvas(700, 700);
     background(255); //fill(246,234,219);
-    img = createGraphics(800, 800);
+    img = createGraphics(700, 700);
 
     //MASK
     mask = createGraphics(800, 800);
